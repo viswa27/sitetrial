@@ -284,3 +284,13 @@ body {
     left: -325px;
     height: 800px;
 }
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+    .header {
+        width: 360%;
+    }
+
+    .info {
+        margin-right: -5%;
+    }
+}
